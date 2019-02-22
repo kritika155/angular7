@@ -1,0 +1,72 @@
+
+    *{
+        box-sizing: border-box;
+        margin:0px;
+        padding: 0px;
+    }
+    body,html
+    {
+        width:100%;height:100%;
+    }
+    .container
+    {   width:100%;
+        height: 10%;
+        margin:0;
+    }
+    .logo img
+    {
+        width:150px;height:48px;margin:0;padding: 0;float:left;
+    }
+    .text h5{text-align:center;font:40px solid;}
+    .welcome
+    {   
+        width: 100%;
+        height:10%;
+        background:red;
+        color:white;
+        
+    }
+
+    .wz-slider
+    {
+      width:100%;height:500px;
+    margin:0px auto;
+    overflow:hidden;
+    }
+    .wz-slider figure
+    {
+    position:relative;
+    width:500%;
+    margin:0px;
+    animation:slider 15s infinite linear;
+    left:0px;
+    }
+    .wz-slider figure img
+    {
+    width:20%;
+    float:left;
+    height:490px;
+    }
+    @keyframes slider{
+    0%{left:0%;}
+    20%{left:0%;}
+    25%{left:-100%;}
+    45%{left:-100%}
+    50%{left:-200%;}
+    70%{left:-200%;}
+    75%{left:-300%;}
+    95%{left:-300%;}
+    100%{left:0%;}
+    }
+    
+    .welcome h5{
+        font-size:23px;
+        padding:17px;
+        text-align:center;
+        vertical-align:baseline;
+    }
+    .footer{width:100%;height:10%;background-color:gray;position:relative;top:0;margin:0;padding:0;}
+.a{text-align:center;width:15%;height:100%;position:absolute;top:0px;left:0;}
+.b{text-align:center;width:70%;height:100%;position:absolute;top:0;left:204px;}
+.c{text-align:center;width:15%;height:100%;position:absolute;top:0;left:1160px;} 
+.a p{text-align:center;}
